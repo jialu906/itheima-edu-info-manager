@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class OtherStudentDao implements BaseStudentDao {
     // 集合容器
     private static ArrayList<Student> stus = new ArrayList<>();
-
+    //public int arr[]=new int [5];
     static {
         Student stu1 = new Student("heima001","张三","23","1999-11-11");
         Student stu2 = new Student("heima002","李四","24","2000-11-11");
