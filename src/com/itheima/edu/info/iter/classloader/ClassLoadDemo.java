@@ -7,7 +7,7 @@ import java.util.Properties;
 public class ClassLoadDemo {
     public static void main(String[] args) throws IOException {
         ClassLoader systemClassLoader = ClassLoader.getSystemClassLoader();
-        InputStream resourceAsStream = systemClassLoader.getResourceAsStream("pro.properties");
+        InputStream resourceAsStream = systemClassLoader.getResourceAsStream("p ro.properties");
         Properties pro=new Properties();
         pro.load(resourceAsStream);
         System.out.println(pro);
