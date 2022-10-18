@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+  ~ Copyright (c) $originalComment.match("Copyright \(c\) (\d+)", 1, "-", "$today.year", "$today.month")2022. 10.
+  ~ this is my java pracitise
+  -->
+
+<students
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.baidu.com"
+    xsi:schemaLocation="http://www.baidu.com student.xsd"
+>
+    <student id="1">
+        <name>张三</name>
+        <age>23</age>
+        <info>学生&lt; &gt;信息</info>
+        <message><![CDATA[<><><><><><><><>]]></message>
+    </student>
+    <student id="2">
+        <name>张四</name>
+        <age>24</age>
+    </student>
+    <student id="-3">
+        <name>张五</name>
+        <age>25</age>
+    </student>
+
+</students>

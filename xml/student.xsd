@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.baidu.com"
+        elementFormDefault="qualified">
+
+    <element name="student">
+        <complexType>
+            <sequence>
+                <element name="student">
+                    <complexType>
+                        <sequence>
+                            <element name="name" type="string"></element>
+                            <element name="age" type="int"></element>
+                            <element name="info" type="string"></element>
+                            <element name="message" type="string"></element>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>
