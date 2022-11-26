@@ -1,2 +1,2 @@
 # itheima-edu-info-manager
-my learning route
+My learning route
